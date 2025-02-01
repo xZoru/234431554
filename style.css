@@ -30,6 +30,8 @@ header{
 .nav_links li{
     display: inline-block;
     padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile{
@@ -39,25 +41,25 @@ header{
 }
 
 .home_img{
-    border-radius: 50%;
+
 }
 
 .home_img img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
     border-radius: 50%;
     padding: 25px 20px;
 }
 
 .portfolio p{
+    display: flex;
     color: antiquewhite;
     font-family: "Montserrat" sans-serif;
     font-size: 2rem;
     margin-bottom: 1rem;
     font-weight: 500;
     text-align: center;
-    justify-content: center;
 }
 
