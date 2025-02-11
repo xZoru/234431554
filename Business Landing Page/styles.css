@@ -33,7 +33,10 @@ button:hover {
 header {
     background-color: #333;
     color: white;
-    padding: 20px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
 }
 
 header .logo h1 {
@@ -64,7 +67,8 @@ main {
 .hero {
     background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.945) ), url(img/images.jpg) no-repeat center / cover;
     color: white;
-    padding: 60px 20px;
+    padding: 120px 20px;
+    margin-top: 60px;
     text-align: center;
 }
 
@@ -81,6 +85,7 @@ main {
     padding: 40px 20px;
     background-color: #fff;
     text-align: center;
+    margin-top: 60px;
 }
 
 #about h2 {
