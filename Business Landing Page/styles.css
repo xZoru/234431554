@@ -110,6 +110,11 @@ main {
     padding: 40px 20px;
     background-color: #e9ecef;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 #services h2 {
@@ -142,6 +147,11 @@ main {
     padding: 40px 20px;
     background-color: #fff;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 #contact form {
