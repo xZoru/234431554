@@ -150,8 +150,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 600px;
+    width: 600px;
     flex-direction: column;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 8px;
 }
 
 #contact form {
@@ -180,6 +184,8 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+
 
 /* Media Queries (Responsive Design) */
 @media screen and (max-width: 768px) {
